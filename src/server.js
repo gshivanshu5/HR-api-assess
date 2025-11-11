@@ -9,7 +9,11 @@ import dashboardRoutes from './routes/dashboard.js';
 import config from './config.js';
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: '*',
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'Accept', 'Origin', 'X-Requested-With']
+}));
 app.use(express.json());
 
 // mount routes
