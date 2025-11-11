@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "id": "user_super_1",
+      "name": "Super Admin",
+      "email": "admin@example.com",
+      "password": "$2b$10$9s3vBWB0nNoV2xGhNm8lZunMQlTV16lLx5tE/hxJs4wB1tZ7hvK8G",
+      "role": "superadmin"
+    },
+    {
+      "id": "user_hr_1",
+      "name": "HR Manager",
+      "email": "hr@example.com",
+      "password": "$2b$10$9s3vBWB0nNoV2xGhNm8lZunMQlTV16lLx5tE/hxJs4wB1tZ7hvK8G",
+      "role": "hr"
+    }
+  ],
+  "employees": [
+    {
+      "id": "8cf6913b-ce7c-4187-8443-cfdfa429b416",
+      "name": "shreya",
+      "email": "shreya@example.com",
+      "position": "BA-1",
+      "department": "Analysts",
+      "salary": 0,
+      "joiningDate": "2025-11-11T14:45:07.178Z",
+      "status": "active",
+      "createdAt": "2025-11-11T14:45:07.178Z",
+      "updatedAt": "2025-11-11T18:42:00.587Z"
+    },
+    {
+      "id": "ab289a31-6d98-4945-8279-3c326b0bb0da",
+      "name": "shivanshu",
+      "email": "shivanshu@exmaple.com",
+      "position": "Full Stack",
+      "department": "Software",
+      "salary": 0,
+      "joiningDate": "2025-11-11T15:17:05.162Z",
+      "status": "active",
+      "createdAt": "2025-11-11T15:17:05.162Z"
+    }
+  ],
+  "applicants": [
+    {
+      "id": "bfbe3b0d-90df-4e8b-8f70-90a6078b6676",
+      "name": "Shreya",
+      "email": "shreya@example.com",
+      "appliedRole": "Backend Developer",
+      "experience": "1",
+      "contact": "9876787654",
+      "resume": "file:///D:/angularProjectHR/Recruitment%20Management%20Dashboard%20(Angular)%20-%20Google%20Docs.pdf",
+      "status": "Shortlisted",
+      "createdAt": "2025-11-11T15:03:49.685Z"
+    },
+    {
+      "id": "910564e3-b1b6-4027-8fb4-c3184f2cebc0",
+      "name": "Shivanshu Kr Gupta",
+      "email": "sh272429@gmail.com",
+      "appliedRole": "Tester",
+      "experience": "3",
+      "contact": "6545678908",
+      "resume": "https://www.w3.org/Provider/Style/dummy.html",
+      "status": "New",
+      "createdAt": "2025-11-11T15:18:37.388Z"
+    },
+    {
+      "id": "4a9675f7-69e6-41e1-ad51-5748f0a31d15",
+      "name": "Aseem",
+      "email": "assem@example.com",
+      "appliedRole": "Tester",
+      "experience": "4",
+      "contact": "9876787654",
+      "resume": "https://www.w3.org/Provider/Style/dummy.html",
+      "status": "New",
+      "createdAt": "2025-11-11T18:46:55.005Z"
+    }
+  ]
+}
